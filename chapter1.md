@@ -1,3 +1,131 @@
-# First Chapter
+# System Preferences
 
-GitBook allows you to organize your book into chapters, each chapter is stored in a separate file like this one.
+First thing you need to do, on any OS actually, is update the system! For that:**Apple menu \(\) &gt; About This Mac &gt; Software Update.**
+
+Also upgrade your OS in case you want to work on the latest OS. Sierra is a free upgrade so please check that.
+
+If this is a new computer, there are a couple tweaks you would like to make to the System Preferences. Feel free to follow these, or to ignore them, depending on your personal preferences.
+
+### Users & Groups {#users-groups}
+
+* Login Options -
+  &gt;
+   Change fast switching user menu to Icon
+* Set up Password, Apple ID, Picture, etc.
+
+### Trackpad {#trackpad}
+
+* Point 
+  &
+   Click
+  * Enable Tap to click with one finger
+  * Change Secondary click to right corner
+  * Uncheck three finger drag
+* Scroll 
+  &
+   Zoom
+  * Uncheck all apart from Zoom in and out
+
+### Dock {#dock}
+
+* Visual settings
+  * Change position to left and make the size of Icons small
+* Other settings
+
+  * Remove workspace auto-switching
+
+    ```
+      $ defaults write com.apple.dock workspaces-auto-swoosh -bool NO
+      $ killall Dock
+
+    ```
+
+### Finder {#finder}
+
+* Toolbar
+  * Update to add path, new folder and delete
+* Sidebar
+  * Add home and code directory
+  * Remove shared and tags
+  * New finder window to open in the home directory
+
+### Menubar {#menubar}
+
+* Remove the display and Bluetooth icons
+* Change battery to show percentage symbols
+
+### Spotlight {#spotlight}
+
+* Uncheck fonts, images, files etc.
+* Uncheck the keyboard shortcuts as we'll be replacing them with Alfred.
+
+### Accounts {#accounts}
+
+* Add an iCloud account and sync Calendar, Find my mac, Contacts etc.
+
+### Write to NTFS on OSX Yosemite and El Capitan {#write-to-ntfs-on-osx-yosemite-and-el-capitan}
+
+#### Install Homebrew and Homebrew Cask {#install-homebrew-and-homebrew-cask}
+
+* Instructions
+  [here](http://sourabhbajaj.com/mac-setup/Homebrew/README.html)
+  !
+
+#### Update Homebrew formulae: {#update-homebrew-formulae-}
+
+```
+$ brew update
+
+```
+
+#### Install osxfuse {#install-osxfuse}
+
+* If you are on OSX 10.11 \(El Capitan\), install the \(3.x.x\) from[https://github.com/osxfuse/osxfuse/releases](https://github.com/osxfuse/osxfuse/releases).
+
+  $ brew cask install osxfuse
+
+#### Install ntfs-3g {#install-ntfs-3g}
+
+```
+$ brew install homebrew/fuse/ntfs-3g
+
+```
+
+#### If you are on OSX 10.11 \(El Capitan\), temporary disable System Integrity Protection. {#if-you-are-on-osx-10-11-el-capitan-temporary-disable-system-integrity-protection-}
+
+* **reboot**
+  and hold CMD+R to get in recovery mode
+* Open the terminal and type
+
+```
+$ csrutil disable
+
+```
+
+* **reboot**
+  normally
+
+#### Create a symlink for mount\_ntfs {#create-a-symlink-for-mount_ntfs}
+
+```
+$ sudo mv /sbin/mount_ntfs /sbin/mount_ntfs.original
+$ sudo ln -s /usr/local/sbin/mount_ntfs /sbin/mount_ntfs
+
+```
+
+#### If you are on OSX 10.11 \(El Capitan\), re-enable System Integrity Protection. {#if-you-are-on-osx-10-11-el-capitan-re-enable-system-integrity-protection-}
+
+* **reboot**
+  and hold CMD+R to get in recovery mode
+* Open the terminal and type
+
+```
+$ csrutil enable
+
+```
+
+* **reboot**
+  normally
+
+
+
