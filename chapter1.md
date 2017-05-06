@@ -37,7 +37,6 @@ If this is a new computer, there are a couple tweaks you would like to make to t
     ```
       $ defaults write com.apple.dock workspaces-auto-swoosh -bool NO
       $ killall Dock
-
     ```
 
 ### Finder {#finder}
@@ -48,6 +47,11 @@ If this is a new computer, there are a couple tweaks you would like to make to t
   * Add home and code directory
   * Remove shared and tags
   * New finder window to open in the home directory
+* View Options
+  * Arrange by: Kind
+  * Sort by: Name
+  * Text Size: 14
+  * Select: Use as defaults
 
 ### Menubar {#menubar}
 
@@ -75,7 +79,6 @@ If this is a new computer, there are a couple tweaks you would like to make to t
 
 ```
 $ brew update
-
 ```
 
 #### Install osxfuse {#install-osxfuse}
@@ -88,7 +91,6 @@ $ brew update
 
 ```
 $ brew install homebrew/fuse/ntfs-3g
-
 ```
 
 #### If you are on OSX 10.11 \(El Capitan\), temporary disable System Integrity Protection. {#if-you-are-on-osx-10-11-el-capitan-temporary-disable-system-integrity-protection-}
@@ -99,7 +101,6 @@ $ brew install homebrew/fuse/ntfs-3g
 
 ```
 $ csrutil disable
-
 ```
 
 * **reboot**
@@ -110,7 +111,6 @@ $ csrutil disable
 ```
 $ sudo mv /sbin/mount_ntfs /sbin/mount_ntfs.original
 $ sudo ln -s /usr/local/sbin/mount_ntfs /sbin/mount_ntfs
-
 ```
 
 #### If you are on OSX 10.11 \(El Capitan\), re-enable System Integrity Protection. {#if-you-are-on-osx-10-11-el-capitan-re-enable-system-integrity-protection-}
@@ -121,7 +121,6 @@ $ sudo ln -s /usr/local/sbin/mount_ntfs /sbin/mount_ntfs
 
 ```
 $ csrutil enable
-
 ```
 
 * **reboot**
