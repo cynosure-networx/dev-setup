@@ -1,3 +1,6 @@
-# My Awesome Book
+# Cynosure Networx Dev Machine Setup
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+This is the guide for setting up a new development computer at Cynosure Networx.
+
+We develop primarily PHP applications using Laravel and hybrid mobile applications using Ionic Framework.  This guide was created following the works of [Sourabh Bajaj](http://sourabhbajaj.com/mac-setup/index.html "Sourabh Bajaj").  It has been tweaked to serve our purposes.
+
