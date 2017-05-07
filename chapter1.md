@@ -29,7 +29,13 @@ If this is a new computer, there are a couple tweaks you would like to make to t
 ### Dock {#dock}
 
 * Visual settings
-  * Change position to left and make the size of Icons small
+  * add spaces in dock to separate groups
+
+  * ```
+    $ defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}'
+    $ killall Dock
+    ```
+
 * Other settings
 
   * Remove workspace auto-switching
