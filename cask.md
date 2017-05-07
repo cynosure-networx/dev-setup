@@ -8,7 +8,6 @@ As of December 2015, cask comes installed with Homebrew directly.
 
 ```
 $ brew cask install google-chrome
-
 ```
 
 ### Search {#search}
@@ -29,7 +28,6 @@ $ brew cask install quicklook-csv
 $ brew cask install betterzipql
 $ brew cask install webpquicklook
 $ brew cask install suspicious-package
-
 ```
 
 ### App Installation {#app-installation}
@@ -37,29 +35,43 @@ $ brew cask install suspicious-package
 I'll now cover installation of the apps that I have mentioned in the apps section using cask.
 
 ```
-$ brew cask install airmail
+$ brew cask install airmail # Really not using anymore
 $ brew cask install alfred
-$ brew cask install android-file-transfer
-$ brew cask install asepsis
-$ brew cask install appcleaner
 $ brew cask install caffeine
 $ brew cask install cheatsheet
-$ brew cask install doubletwist
 $ brew cask install dropbox
 $ brew cask install google-chrome
 $ brew cask install google-drive
 $ brew cask install google-hangouts
 $ brew cask install flux
-$ brew cask install latexian
 $ brew cask install 1password
-$ brew cask install pdftk
-$ brew cask install spectacle
-$ brew cask install sublime-text
-$ brew cask install superduper
-$ brew cask install totalfinder
-$ brew cask install transmission
+$ brew cask install atom
+$ brew cask install transmission ???
 $ brew cask install valentina-studio
 $ brew cask install vlc
+$ brew cask install dropbox
+$ brew cask install avira-antivirus
+$ brew cask install evernote
+$ brew cask install phpstorm
+$ brew cask install ringcentral
+$ brew cask install slack
+$ brew cask install sketch
+$ brew cask install sequel-pro
+$ brew cask install virtualbox
+$ brew cask install bartender
+$ brew cask install sourcetree
+$ brew cask install soulver
+$ brew cask install pocketsmith ??? #finace app
+$ brew cask install skype
+
+
+Todoist
+Matrox PowerDesk
+Delivieries
+Wunderlist
+BetterSnapTool
+Pocket
+Chatra
 ```
 
 
