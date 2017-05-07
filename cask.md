@@ -46,7 +46,7 @@ $ brew cask install google-hangouts
 $ brew cask install flux
 $ brew cask install 1password
 $ brew cask install atom
-$ brew cask install transmission ???
+$ brew cask install transmission
 $ brew cask install valentina-studio
 $ brew cask install vlc
 $ brew cask install dropbox
@@ -55,6 +55,8 @@ $ brew cask install evernote
 $ brew cask install phpstorm
 $ brew cask install ringcentral
 $ brew cask install slack
+$ brew cask install gitter
+
 $ brew cask install sketch
 $ brew cask install sequel-pro
 $ brew cask install virtualbox
@@ -65,15 +67,18 @@ $ brew cask install pocketsmith ??? #finace app
 $ brew cask install skype
 
 
+Installed At the App Store
 Todoist
-Matrox PowerDesk
 Delivieries
 Wunderlist
 BetterSnapTool
 Pocket
-Chatra
 Tweetbot
 
+Installed from Website
+Chatra
+Hootsuite
+Matrox PowerDesk
 
 ```
 
