@@ -19,6 +19,8 @@ It is really simple to check if the app is supported by cask by going to the sea
 Some[plugins](https://github.com/sindresorhus/quick-look-plugins)to enable different files to work with Mac Quicklook. Includes features like syntax highlighting, markdown rendering, preview of jsons, patch files, csv, zip files etc.
 
 ```
+
+Install individually
 $ brew cask install qlcolorcode
 $ brew cask install qlstephen
 $ brew cask install qlmarkdown
@@ -26,8 +28,13 @@ $ brew cask install quicklook-json
 $ brew cask install qlprettypatch
 $ brew cask install quicklook-csv
 $ brew cask install betterzipql
+$ brew cask install qlimagesize
 $ brew cask install webpquicklook
 $ brew cask install suspicious-package
+
+
+Install all on one line in terminal
+$ brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql qlimagesize webpquicklook suspicious-package quicklookase qlvideo
 ```
 
 ### App Installation {#app-installation}
