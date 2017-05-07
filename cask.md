@@ -56,15 +56,16 @@ $ brew cask install phpstorm
 $ brew cask install ringcentral
 $ brew cask install slack
 $ brew cask install gitter
-
 $ brew cask install sketch
 $ brew cask install sequel-pro
 $ brew cask install virtualbox
 $ brew cask install bartender
 $ brew cask install sourcetree
 $ brew cask install soulver
-$ brew cask install pocketsmith ??? #finace app
 $ brew cask install skype
+
+$ brew cask install pocketsmith ??? #finace app
+
 
 
 Installed At the App Store
@@ -72,14 +73,19 @@ Todoist
 Delivieries
 Wunderlist
 BetterSnapTool
+Pixlemator
 Pocket
 Tweetbot
+Numbers
+Pages
+Keynote
+BeFocused Pro
+
 
 Installed from Website
 Chatra
-Hootsuite
+Hootsuite ???
 Matrox PowerDesk
-
 ```
 
 
