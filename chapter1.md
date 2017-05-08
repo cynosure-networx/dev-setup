@@ -29,6 +29,7 @@ If this is a new computer, there are a couple tweaks you would like to make to t
 ### Dock {#dock}
 
 * Visual settings
+
   * add spaces in dock to separate groups
 
   * ```
@@ -73,64 +74,11 @@ If this is a new computer, there are a couple tweaks you would like to make to t
 
 * Add an iCloud account and sync Calendar, Find my mac, Contacts etc.
 
-### Write to NTFS on OSX Yosemite and El Capitan {#write-to-ntfs-on-osx-yosemite-and-el-capitan}
-
-#### Install Homebrew and Homebrew Cask {#install-homebrew-and-homebrew-cask}
-
-* Instructions
-  [here](http://sourabhbajaj.com/mac-setup/Homebrew/README.html)
-  !
-
 #### Update Homebrew formulae: {#update-homebrew-formulae-}
 
 ```
 $ brew update
 ```
-
-#### Install osxfuse {#install-osxfuse}
-
-* If you are on OSX 10.11 \(El Capitan\), install the \(3.x.x\) from[https://github.com/osxfuse/osxfuse/releases](https://github.com/osxfuse/osxfuse/releases).
-
-  $ brew cask install osxfuse
-
-#### Install ntfs-3g {#install-ntfs-3g}
-
-```
-$ brew install homebrew/fuse/ntfs-3g
-```
-
-#### If you are on OSX 10.11 \(El Capitan\), temporary disable System Integrity Protection. {#if-you-are-on-osx-10-11-el-capitan-temporary-disable-system-integrity-protection-}
-
-* **reboot**
-  and hold CMD+R to get in recovery mode
-* Open the terminal and type
-
-```
-$ csrutil disable
-```
-
-* **reboot**
-  normally
-
-#### Create a symlink for mount\_ntfs {#create-a-symlink-for-mount_ntfs}
-
-```
-$ sudo mv /sbin/mount_ntfs /sbin/mount_ntfs.original
-$ sudo ln -s /usr/local/sbin/mount_ntfs /sbin/mount_ntfs
-```
-
-#### If you are on OSX 10.11 \(El Capitan\), re-enable System Integrity Protection. {#if-you-are-on-osx-10-11-el-capitan-re-enable-system-integrity-protection-}
-
-* **reboot**
-  and hold CMD+R to get in recovery mode
-* Open the terminal and type
-
-```
-$ csrutil enable
-```
-
-* **reboot**
-  normally
 
 
 
