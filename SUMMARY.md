@@ -4,10 +4,13 @@
 
 * [System Preferences](chapter1.md)
 
+* Software
+
+  * Homebrew
+
+  * Cask
 
 
-* [Homebrew](homebrew.md)
-* [Cask](cask.md)
 
 
 
