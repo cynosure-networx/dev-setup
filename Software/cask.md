@@ -70,6 +70,7 @@ $ brew cask install bartender
 $ brew cask install sourcetree
 $ brew cask install soulver
 $ brew cask install skype
+$ brew cask install gitbook-editor
 
 $ brew cask install pocketsmith ??? #finace app
 
