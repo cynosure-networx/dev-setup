@@ -19,7 +19,6 @@ It is really simple to check if the app is supported by cask by going to the sea
 Some[plugins](https://github.com/sindresorhus/quick-look-plugins)to enable different files to work with Mac Quicklook. Includes features like syntax highlighting, markdown rendering, preview of jsons, patch files, csv, zip files etc.
 
 ```
-
 Install individually
 $ brew cask install qlcolorcode
 $ brew cask install qlstephen
@@ -48,6 +47,7 @@ $ brew cask install caffeine
 $ brew cask install cheatsheet
 $ brew cask install dropbox
 $ brew cask install google-chrome
+$ brew cask install firefox
 $ brew cask install google-drive
 $ brew cask install google-hangouts
 $ brew cask install flux
