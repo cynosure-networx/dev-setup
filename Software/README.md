@@ -6,7 +6,5 @@ Installed with Homebrew Cask
 
 Installed with App Store
 
-
-
 Installed by their website
 
