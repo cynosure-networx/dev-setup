@@ -71,8 +71,18 @@ $ brew cask install sourcetree
 $ brew cask install soulver
 $ brew cask install skype
 $ brew cask install gitbook-editor
+$ brew cask install android-studio
+$ brew cask install dash
+$ brew cask install codekit
+$ brew cask install crashplan
+$ brew cask install duet
+$ brew cask install camtasia
+$ brew cask install freeter
+
 
 $ brew cask install pocketsmith ??? #finace app
+$ brew cask install blisk ??? #mobile dev browser
+
 
 
 
