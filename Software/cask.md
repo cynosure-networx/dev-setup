@@ -98,7 +98,7 @@ Numbers
 Pages
 Keynote
 BeFocused Pro
-
+Xcode
 
 Installed from Website
 Chatra
