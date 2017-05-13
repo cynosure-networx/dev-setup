@@ -5,4 +5,5 @@
 * Software
   * [Homebrew](homebrew.md)
   * [Cask](cask.md)
+* [Atom](atom.md)
 
