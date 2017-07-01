@@ -10,7 +10,6 @@ We can install Hombrew! In the terminal paste the following line \(without the`$
 
 ```
 $ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-
 ```
 
 One thing we need to do is tell the system to use programs installed by Hombrew \(in`/usr/local/bin`\) rather than the OS default if it exists. We do this by adding`/usr/local/bin`to your`$PATH`environment variable:
@@ -20,7 +19,6 @@ $ echo 'export PATH="/usr/local/bin:$PATH"'
 >
 >
  ~/.bash_profile
-
 ```
 
 Alternatively, we can also insert`/usr/local/bin`to the first line of`/private/etc/paths`and reboot the Mac to change global paths loading order. Admin password may be required if you modify the file.
@@ -30,6 +28,18 @@ Open an new terminal tab with**Cmd+T**\(you should also close the old one\), the
 ```
 $ brew doctor
 ```
+
+**Install Autojump**
+
+autojump is a faster way to navigate your filesystem. It works by maintaining a database of the directories you use the most from the command line.
+
+_Directories must be visited first before they can be jumped to._
+
+```
+$ brew install autojump
+```
+
+
 
 
 
