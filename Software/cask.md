@@ -78,6 +78,19 @@ $ brew cask install crashplan
 $ brew cask install duet
 $ brew cask install camtasia
 $ brew cask install freeter
+$ brew cask install docker
+$ brew cask install docker-toolbox
+$ brew cask install amazon-music
+$ brew cask install gitcraken
+
+
+
+
+
+
+
+
+
 
 
 $ brew cask install pocketsmith ??? #finace app
